@@ -25,7 +25,8 @@ public class Java8Tester {
 		names.add("Kalpesh");
 		
 		names.forEach(System.out::println);
-
+		//names.forEach(System.out::print);
+		
 	}
 
 }

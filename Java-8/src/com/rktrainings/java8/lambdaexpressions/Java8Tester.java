@@ -42,9 +42,9 @@ public class Java8Tester {
 		tester.sortUsingJava8(names2);
 		System.out.println(names2);
 		
-		
+		System.out.println("Sort by names:");
 		tester.sortByName(names1);
-		
+		System.out.println(names2);
 		
 	}
 

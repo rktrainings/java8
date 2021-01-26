@@ -8,6 +8,10 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.function.Consumer;
 
+import com.rktrainings.java8.dto.Account;
+import com.rktrainings.java8.dto.Person;
+import com.rktrainings.java8.functionalinterfaces.consumer.PersonConsumer;
+
 /**
  * @author RavikumarPothannagar
  *

@@ -41,7 +41,7 @@ public class LamdaExpressionTest {
 		System.out.println("10*5= "+test.operate(10, 5, mulitplication));
 		System.out.println("10/5= "+test.operate(10, 5, division));
 		
-		//without parenthesis
+		//with parenthesis
 		GreetingService greetService1 = (message) ->
 		System.out.println("Hello "+message);
 		

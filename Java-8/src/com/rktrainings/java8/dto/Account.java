@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.rktrainings.java8.foreach;
+package com.rktrainings.java8.dto;
 
 /**
  * @author RavikumarPothannagar
@@ -14,6 +14,24 @@ public class Account {
     private String accountName;
     private String status;
     private String type;
+    
+    
+    /**
+	 * @param guid
+	 * @param accountNumber
+	 * @param accountName
+	 * @param status
+	 * @param type
+	 */
+	public Account(Long guid, String accountNumber, String accountName, String status, String type) {
+		//super();
+		this.guid = guid;
+		this.accountNumber = accountNumber;
+		this.accountName = accountName;
+		this.status = status;
+		this.type = type;
+	}
+    
     
     public Long getGuid() {
 		return guid;

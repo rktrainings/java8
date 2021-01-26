@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.rktrainings.java8.foreach;
+package com.rktrainings.java8.dto;
 
 import java.util.List;
 
